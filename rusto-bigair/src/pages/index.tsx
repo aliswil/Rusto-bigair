@@ -37,6 +37,7 @@ export default function Home() {
             autoPlay
             muted
             loop
+            playsInline
           >
             <source src={bigair} type="video/mp4" />
           </video>
@@ -58,7 +59,7 @@ export default function Home() {
           </h3>
         </div>
       </section>
-      <section className="relative  flex flex-col items-center justify-center text-center text-white py-0 px-3 bg-fixed bg-center bg-cover custom-img2">
+      <section className="relative  flex flex-col items-center justify-center text-center text-white py-0 px-3 bg-fixed bg-center bg-contain sm:bg-cover custom-img2">
         <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden"></div>
         <div className="video-content space-y-2">
           <h1 className="font-bold text-6xl mt-10 mb-10">Program</h1>
@@ -178,7 +179,7 @@ export default function Home() {
           </h1>
         </div>
       </section>
-      <div className="flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img">
+      <div className="flex items-center justify-center h-screen bg-fixed bg-center bg-contain sm:bg-cover custom-img">
         <div className="p-5 text-white z-[2]  mt-[-10rem]">
           <h2 className=" text-7xl font-bold animate-bounce">
             Det er hvertfall vi!
