@@ -169,6 +169,7 @@ export default function Home() {
             autoPlay
             muted
             loop
+            playsInline
           >
             <source src={bigair2} type="video/mp4" />
           </video>
