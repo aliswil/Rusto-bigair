@@ -4,7 +4,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: "Raleway", sans-serif;
+  /*font-family: "Raleway", sans-serif;*/
 }
 
 .video-docker video {
@@ -25,4 +25,12 @@ html {
 
 .video-content {
   z-index: 2;
+}
+
+.custom-img {
+  background-image: url("../../public/vemund.JPG");
+}
+
+.custom-img2 {
+  background-image: url("../../public/bg1.JPG");
 }
