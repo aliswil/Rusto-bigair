@@ -7,7 +7,6 @@ import rustologo from "../../public/rusto-logo1.png";
 import bigair2 from "../../public/video2.mp4";
 import djknut from "../../public/djknut1.jpg";
 import skistua1 from "../../public/bg3.jpg";
-import skistua2 from "../../public/bg4.jpg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -67,17 +66,17 @@ export default function Home() {
             <li className="mb-10 ml-6">
               <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-gray-700"></span>
               <h3 className="flex items-center mb-1 text-3xl font-bold text-gray-900 dark:text-white">
-                12:00 - Start!!!
+                11:00 - Start!!!
               </h3>
               <p className="mb-4 text-base font-normal text-gray-300 flex sm:justify-start justify-center">
                 Den første pilsen skal knekkes, og Rusto Big Air 2023 er herved
-                i gang!
+                i gang! Kjøh
               </p>
             </li>
             <li className="mb-10 ml-6">
               <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-gray-700"></span>
               <h3 className="flex items-center mb-1 text-3xl font-bold text-gray-900 dark:text-white">
-                12:30 - DJ KNUT
+                12:00 - DJ KNUT
               </h3>
 
               <p className="text-base font-normal text-gray-300  mb-5 flex sm:justify-start justify-center">
@@ -117,7 +116,7 @@ export default function Home() {
             <li className="mb-10 ml-6">
               <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-gray-700"></span>
               <h3 className="flex items-center mb-1 text-3xl font-bold text-gray-900 dark:text-white">
-                14:00 - Mingling
+                14:30 - Mingling
               </h3>
 
               <p className="text-base font-normal text-gray-300 flex sm:justify-start justify-center">
@@ -132,7 +131,7 @@ export default function Home() {
             <li className="mb-10 ml-6">
               <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-gray-700"></span>
               <h3 className="flex items-center mb-1 text-3xl font-bold text-gray-900 dark:text-white">
-                14:00 - CHUG
+                15:50 - CHUG
               </h3>
 
               <p className="text-base font-normal text-gray-300 flex sm:justify-start justify-center">
@@ -143,11 +142,11 @@ export default function Home() {
             <li className="mb-10 ml-6">
               <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-gray-700"></span>
               <h3 className="flex items-center mb-1 text-3xl font-semibold text-gray-900 dark:text-white">
-                15:00 - Skistua
+                16:00 - Skistua
               </h3>
 
               <p className="text-base font-normal text-gray-300 mb-5 flex sm:justify-start justify-center">
-                Måtte alle komme inn.
+                Tid for å vise byfolk hvordan man fester. Måtte alle komme inn.
               </p>
               <Image
                 className="object-scale-down md:h-auto md:max-w-lg"
