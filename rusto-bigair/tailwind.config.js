@@ -15,6 +15,13 @@ module.exports = {
     fontFamily: {
       display: ["Anton", ...defaultTheme.fontFamily.sans],
     },
+    extend: {
+      backgroundImage: (theme) => ({
+        "bg-bigscreen": "url('/bg1.JPG')",
+        "bg-mobile": "url('/flet1.jpg')",
+        //@ts-ignore"test-device-xl": "url('/img/test-device/exlg.png')",
+      }),
+    },
   },
   plugins: [],
 };

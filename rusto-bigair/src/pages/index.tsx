@@ -59,11 +59,11 @@ export default function Home() {
           </h3>
         </div>
       </section>
-      <section className="relative  flex flex-col items-center justify-center text-center text-white py-0 px-3 bg-fixed bg-center bg-contain sm:bg-cover custom-img2">
-        <div className="video-docker absolute top-0 left-0 w-full h-full overflow-hidden"></div>
-        <div className="video-content space-y-2">
+      <section className="relative  flex flex-col items-center justify-center text-center text-white py-0 px-3 bg-fixed bg-center bg-cover bg-bg-mobile sm:bg-bg-bigscreen">
+        <div className="absolute top-0 left-0 w-full h-full overflow-hidden"></div>
+        <div className="space-y-2">
           <h1 className="font-bold text-6xl mt-10 mb-10">Program</h1>
-          <ol className="relative border-l border-gray-200 dark:border-gray-700 bg-black bg-opacity-50 p-10">
+          <ol className="relative border-l border-gray-200 dark:border-gray-700 bg-black bg-opacity-70 p-10">
             <li className="mb-10 ml-6">
               <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-gray-700"></span>
               <h3 className="flex items-center mb-1 text-3xl font-bold text-gray-900 dark:text-white">
